@@ -1,0 +1,252 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* ENCABEZADO DE LA PAGINA*/
+/* ENCABEZADO DE LA PAGINA*/
+/* ENCABEZADO DE LA PAGINA*/
+/* ENCABEZADO DE LA PAGINA*/
+/* ENCABEZADO DE LA PAGINA*/
+
+header {
+    background-color: #e0cdd3;
+    color: #F9FAF8;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top_1 {
+    display: flex;
+    justify-content: space-between;
+    min-width: 75%;
+    margin-bottom: 70px;
+}
+
+.top_1 img {
+    display: flex;
+    height: 50px;
+    width: auto;
+    filter: invert(97%);
+}
+
+.top_1 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.top_1 ul li {
+    margin: 10px;
+}
+
+.top_1 ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.top_mix {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 75%;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.top_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top_2 h1 {
+    display: flex;
+    font-size: 50px;
+}
+
+.top_2 p {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    max-width: 400px;
+    font-size: large;
+    margin: 20px 0px;
+}
+
+.top_2 button {
+    display: flex;
+    background-color: #f7d7e1;
+    color: #ffffff;
+    padding: 15px;
+    max-width: 95px;
+    border: #f7d7e1;
+    border-radius: 20px;
+}
+
+.top_3 {
+    display: flex;
+    height: 300px;
+    width: auto;
+}
+
+/* CONTENIDO 1 DE LA PAGINA*/
+/* CONTENIDO 1 DE LA PAGINA*/
+/* CONTENIDO 1 DE LA PAGINA*/
+/* CONTENIDO 1 DE LA PAGINA*/
+/* CONTENIDO 1 DE LA PAGINA*/
+
+.contenido_1, .contenido_2 {
+    display: flex;
+    flex: 1;
+}
+
+.contenido_1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #faedf1;
+}
+
+.contenido_1 h1 {
+    display: flex;
+    color: #b0b0b0;
+    font-size: 50px;
+    margin: 50px 0px;
+}
+
+.grupo_imagenes {
+    display: flex;
+    gap: 70px;
+}
+
+.grupo_imagenes img {
+    display: flex;
+    height: 175px;
+    width: auto;
+    filter: invert(70%);
+}
+
+.grupo_parrafos {
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+    color: #b0b0b0;
+    font-weight: 900;
+}
+
+.grupo_parrafos p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 140px;
+    width: 175px;
+}
+
+/* CONTENIDO 2 y 3 DE LA PAGINA*/
+/* CONTENIDO 2 y 3 DE LA PAGINA*/
+/* CONTENIDO 2 y 3 DE LA PAGINA*/
+/* CONTENIDO 2 y 3 DE LA PAGINA*/
+/* CONTENIDO 2 y 3 DE LA PAGINA*/
+
+.contenido_2 {
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7d7e1;
+}
+
+.parrafo_enfasis {
+    display: flex;
+    max-width: 60%;
+    font-size: 36px;
+    color: #ffffff;
+    margin: 70px 0px;
+}
+
+.contenido_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7d7e1;
+}
+
+.contenido_3 div {
+    position: absolute;
+    top: 1225px;
+    right: 450px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #b0b0b0;
+}
+
+/* CONTENIDO 4 DE LA PAGINA*/
+/* CONTENIDO 4 DE LA PAGINA*/
+/* CONTENIDO 4 DE LA PAGINA*/
+/* CONTENIDO 4 DE LA PAGINA*/
+/* CONTENIDO 4 DE LA PAGINA*/
+
+.contenido_4 {
+    display: flex;
+    justify-content: center;padding: 100px;
+    background-color: #ffeff4;
+}
+
+.contenido_4 .contenedor {
+    display: flex;
+    align-items: center;
+    background-color: #ffcedf;
+    border-radius: 20px;
+    padding: 50px;
+    gap: 160px;
+}
+
+.contenido_4 .textos_finales {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    gap: 5px;
+    margin-left: 210px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.contenido_4 button {
+    display: flex;
+    background-color: #fad1de;
+    color: #ffffff;
+    padding: 15px;
+    max-width: 95px;
+    border-color: #ffffff;
+    border-radius: 20px;
+    border-style: solid;
+    margin-right: 210px;
+}
+
+/* FOOTER DE LA PAGINA*/
+/* FOOTER DE LA PAGINA*/
+/* FOOTER DE LA PAGINA*/
+/* FOOTER DE LA PAGINA*/
+/* FOOTER DE LA PAGINA*/
+
+footer {
+    background-color: #e0cdd3;
+    color: #F9FAF8;
+    padding: 30px;
+
+    display: flex;
+    justify-content: center;
+}
